@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: roboto ;
+  
+  }
+body   {
+    display: inline;
+    min-height: 100%;
+    background-image: url("https://image.freepik.com/free-vector/abstract-technology-particle-background_52683-25766.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+     }
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-bar{
+    list-style: none;  
+  }
+  .nav-bar li {
+   display: inline-block;
+   padding: 0px 20px;
+  }
+  .nav-bar li a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: silver;
+  }
+  .nav-bar li a:hover {
+    color: slateblue;
+  }
+  button{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  color: silver; 
+  padding: 10px 25px;
+  background-color: rgb(6, 36, 61);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  }
+  button:hover{
+  color: slateblue;
+  }
+  footer {
+    font-family: 'Roboto';
+  font-size: small;
+  color: silver;
+    clear: both;
+    position: relative;
+    height: 290px;
+    margin-top:50px;
+}
+
+.social-media{
+   
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0px;
+  border: none;
+  cursor: pointer;
+}
+main{
+  font-size: medium;
+  color: silver;
+  padding: 10px 5%;
+  padding-top: 50px;
+  padding-bottom:0px ;
+}
+
+
+    
+  
+  
